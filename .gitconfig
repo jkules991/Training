@@ -1,0 +1,7 @@
+[user]
+	email = kulesjosip@hotmail.com
+	name = jkules991
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
