@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Simple form</title>
+    </head>
+    <body>
+        <div class='form'>
+            <form method='POST' action=''>
+                {{ form.hidden_tag() }}
+                {{ form.first_name.label }} {{ form.first_name }}
+                <br>
+                {{ form.last_name.label }} {{ form.last_name }}
+                <br>
+                {{ form.f_age.label }} {{ form.f_age }}
+                <br>
+                {{ form.f_num.label }} {{ form.f_num }}
+                <br>
+                    {{ jiexampleform.hidden_tag() }}
+                    {{ jiexampleform.list.id}} {{jiexampleform.list}}
+                    {{ jiexampleform.submit}}
+                <br>
+                {{ form.submit }}
+                <br>
+            {{ message }}
+            </form>
+        </div>
+    </body>
+</html>
